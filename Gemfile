@@ -1,6 +1,7 @@
 source ENV['GEM_SOURCE'] || "https://rubygems.org"
 
 group :development, :test do
+  gem 'ci_reporter_rspec', '>=1.0.0',          :require => false
   gem 'facter',                                :require => false
   gem 'hiera',                                 :require => false
   gem 'metadata-json-lint',                    :require => false
